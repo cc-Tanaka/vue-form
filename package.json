@@ -9,9 +9,13 @@
   },
   "dependencies": {
     "@vee-validate/rules": "^4.0.4",
+    "bulma": "^0.9.1",
     "core-js": "^3.6.5",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
     "vee-validate": "^4.1.1",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "yup": "^0.32.8"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
