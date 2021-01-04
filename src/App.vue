@@ -47,10 +47,11 @@
         <div class="form__col">
           <Field name="agree" type="checkbox" :value="false">
             <label>
-              <input type="checkbox" name="agree" v-bind="field" />以上の入力内容で問題ありませんか？
+              <input v-model="check" type="checkbox" name="agree" v-bind="field" />以上の入力内容で問題ありませんか？
             </label>
             <span class="form__error">{{ errors.agree }}</span>
           </Field>
+          <p style="font-size: 14px">内容に問題がないか: {{ check }}</p>
         </div>
       </div>
       <button>送信</button>
